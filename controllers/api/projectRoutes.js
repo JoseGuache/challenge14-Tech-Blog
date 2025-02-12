@@ -40,15 +40,13 @@ router.delete('/:id', withAuth, async (req, res) => {
 //http://localhost:3001/api/projects/13
 router.put('/:id', withAuth, async (req, res) => {
   console.log(req.body, req.params.id)
-  // try {
+  try {
     const projectData = await Project.update({
       name: req.body.name,
-      description:req.body.description,
-      needed_funding: parseFloat(req.body.needed_funding) 
-    },{
+      description: req.body.description
+    }, {
       where: {
         id: req.params.id,
-        
       },
     });
 
@@ -58,9 +56,9 @@ router.put('/:id', withAuth, async (req, res) => {
     }
 
     res.status(200).json(projectData);
-  // } catch (err) {
-  //   res.status(500).json(err);
-  // }
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
 
 module.exports = router;
