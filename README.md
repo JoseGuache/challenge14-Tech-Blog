@@ -73,10 +73,10 @@ A CMS-style blog site where developers can publish their blog posts and comment 
 
 ## Screenshots
 
-![alt text](./public/images/Screenshot 2025-02-11 214414.png)
-![alt text](./public/images/Screenshot 2025-02-11 214955.png)
-![alt text](./public/images/Screenshot 2025-02-11 220525.png)
-![alt text](./public/images/Screenshot 2025-02-11 223349.png)
+![alt text](./public/images/chal14SS1.png)
+![alt text](./public/images/chal14SS2.png)
+![alt text](./public/images/chal14SS3.png)
+![alt text](./public/images/chal14SS4.png)
 
 ## Credits
 
